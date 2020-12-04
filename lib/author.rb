@@ -16,8 +16,8 @@ class Author
     return Post.all.length
   end
   
-  def add_post_by_title(new_name)
-    add_post(Post.new(new_name))
+  def add_post_by_title(new_title)
+    add_post(Post.new(new_title))
   end
     
 end
