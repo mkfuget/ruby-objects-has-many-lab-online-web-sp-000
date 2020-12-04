@@ -13,11 +13,11 @@ class Author
   end
   
   def self.post_count
-    return Song.all.length
+    return Post.all.length
   end
   
   def add_post_by_title(new_name)
-    add_post(Song.new(new_name))
+    add_post(Post.new(new_name))
   end
     
 end
